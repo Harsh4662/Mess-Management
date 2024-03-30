@@ -1,0 +1,125 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+ 
+  /* padding: 0; */
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin-top: 25px;
+  /* height: auto; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: linear-gradient(40deg, #0800ff, #009dff); */
+  background-color: #eaeaea;
+  /* background-image: url("images/bg.jpg"); */
+  background-size: cover;
+
+}
+#hding{
+  margin-top: -10px;
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 10px;
+  color: #4077be;
+  padding-top: 0px;
+  width: 300px;
+  border-radius: 20px;
+  border: 2px solid #c3d4ea;
+  box-shadow: 0 2px 20px 0 rgb(255, 255, 255);
+}
+.rating-box {
+  position: relative;
+  background: #fffffff4;
+  padding: 25px 50px 35px;
+  border-radius: 25px;
+  /* box-shadow: 0 4px 40px 0 rgb(255, 255, 255), 0 5px 20px 0 rgb(255, 255, 255); */
+  border: 2px solid #c3d4ea;
+  width: 800px;
+  /* height: auto; */
+  
+  /* opacity: 0.5; */
+  
+}
+.rating-box header {
+  font-size: 22px;
+  color: #02459d;
+  font-weight: 500;
+  margin-bottom: 20px;
+  /* text-align: center; */
+  justify-content: center;
+}
+.rating-box .stars1 {
+  display: flex;
+  /* align-items: center; */
+  gap: 25px;
+  justify-content: center;
+  
+}
+.rating-box .stars2 {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 25px;
+}
+.rating-box .stars3 {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 25px;
+}
+.stars1 i {
+  color: #e6e6e6;
+  font-size: 35px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+.stars2 i {
+  color: #e6e6e6;
+  font-size: 35px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  
+}
+.stars3 i {
+  color: #e6e6e6;
+  font-size: 35px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+.stars1 i.active {
+  color: #ff9c1a;
+}
+.stars2 i.active {
+  color: #ff9c1a;
+}
+.stars3 i.active {
+  color: #ff9c1a;
+}
+
+
+#tarea{
+  height: 120px;
+  width: 350px;
+  resize: none;
+  border: 2px solid #c3d4ea;
+  border-radius: 20px;
+  background-color: #eaeaea;
+  color: #02459d;
+  font-size: larger;
+  padding: 5px;
+  
+}
+.btnsubmit{
+  padding: 10px;
+  width: 150px;
+  height: auto;
+  margin-top: 30px;
+  background-color: #02459d;
+  color: white;
+  font-size: larger;
+  border-radius: 50px;
+  box-shadow: 0 4px 40px 0 rgb(255, 255, 255), 0 5px 20px 0 #02459d;
+}
